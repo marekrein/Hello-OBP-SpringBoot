@@ -1,0 +1,146 @@
+repo_name: marekrein/Hello-OBP-SpringBoot
+report_id: 1a9a527c5b9b2195331687bde2c37fce
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-23T19:48:51+00:00'
+requested_by: simonredfern
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florin Duroiu
+  last_updated_on: 2019-01-20 12:02:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florin Duroiu
+  last_updated_on: 2019-01-20 12:02:35.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/src/main/resources/application.properties
+  detection_source: src/main/resources/application.properties
+  last_updated_by: florin
+  last_updated_on: 2017-01-15 14:24:38.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: florin
+  last_updated_on: 2017-01-14 17:39:01.000000000 Z
+- name: org.joda:joda-money
+  description: Money representation and formatting
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florin Duroiu
+  last_updated_on: 2019-01-20 12:02:35.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florin Duroiu
+  last_updated_on: 2019-01-20 12:02:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florin Duroiu
+  last_updated_on: 2019-01-20 12:02:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florin Duroiu
+  last_updated_on: 2019-01-20 12:02:35.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/marekrein/Hello-OBP-SpringBoot/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Florin Duroiu
+  last_updated_on: 2019-01-20 12:02:35.000000000 Z
